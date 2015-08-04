@@ -1,0 +1,1 @@
+<?php echo Asset::render('footer'); ?>asdasdsad

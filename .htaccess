@@ -1,0 +1,16 @@
+SetEnv CI_ENV development
+<IfModule mod_rewrite.c>
+
+	Options +FollowSymLinks -Indexes
+
+	Options -MultiViews
+	RewriteEngine on
+
+	RedirectMatch 403 ^/.*/(system|application/config|application/logs|\.git|\.hg).*$
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
