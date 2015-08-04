@@ -11,6 +11,7 @@
     <meta content="" name="description">
     <meta content="" name="author">
     <link rel="shortcut icon" href="favicon.ico">
+    <base href="<?php echo base_url();?>">
     <title>{{ template.title }}</title>
     <?php Asset::css('font-awesome.min.css','','header');?>
     <?php Asset::css('simple-line-icons.min.css','','header');?>
@@ -33,7 +34,7 @@
         <div class="container">
             <!-- BEGIN LOGO -->
             <div class="page-logo">
-                <a href="index.html"><img src="<?php echo theme_image('logo-default.png','','footer'); ?>" alt="logo" class="logo-default"></a>
+                <a href="index.html"><img src="<?php echo theme_image('logo-default.png'); ?>" alt="logo" class="logo-default"></a>
             </div>
             <!-- END LOGO -->
             <!-- BEGIN RESPONSIVE MENU TOGGLER -->
@@ -264,7 +265,7 @@
                                     <li>
                                         <a href="inbox.html?a=view">
 										<span class="photo">
-										<img src="<?php echo theme_image('avatar2.jpg','','footer'); ?>" class="img-circle" alt="">
+										<img src="<?php echo theme_image('avatar2.jpg'); ?>" class="img-circle" alt="">
 										</span>
 										<span class="subject">
 										<span class="from">
@@ -278,7 +279,7 @@
                                     <li>
                                         <a href="inbox.html?a=view">
 										<span class="photo">
-										<img src="<?php echo theme_image('avatar3.jpg','','footer'); ?>" class="img-circle" alt="">
+										<img src="<?php echo theme_image('avatar3.jpg'); ?>" class="img-circle" alt="">
 										</span>
 										<span class="subject">
 										<span class="from">
@@ -292,7 +293,7 @@
                                     <li>
                                         <a href="inbox.html?a=view">
 										<span class="photo">
-										<img src="<?php echo theme_image('avatar1.jpg','','footer'); ?>" class="img-circle" alt="">
+										<img src="<?php echo theme_image('avatar1.jpg'); ?>" class="img-circle" alt="">
 										</span>
 										<span class="subject">
 										<span class="from">
@@ -306,7 +307,7 @@
                                     <li>
                                         <a href="inbox.html?a=view">
 										<span class="photo">
-										<img src="<?php echo theme_image('avatar2.jpg','','footer'); ?>" class="img-circle" alt="">
+										<img src="<?php echo theme_image('avatar2.jpg'); ?>" class="img-circle" alt="">
 										</span>
 										<span class="subject">
 										<span class="from">
@@ -320,7 +321,7 @@
                                     <li>
                                         <a href="inbox.html?a=view">
 										<span class="photo">
-										<img src="<?php echo theme_image('avatar3.jpg','','footer'); ?>" class="img-circle" alt="">
+										<img src="<?php echo theme_image('avatar3.jpg'); ?>" class="img-circle" alt="">
 										</span>
 										<span class="subject">
 										<span class="from">
@@ -339,7 +340,7 @@
                     <!-- BEGIN USER LOGIN DROPDOWN -->
                     <li class="dropdown dropdown-user dropdown-dark">
                         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img alt="" class="img-circle" src="<?php echo theme_image('avatar9.jpg','','footer'); ?>">
+                            <img alt="" class="img-circle" src="<?php echo theme_image('avatar9.jpg'); ?>">
                             <span class="username username-hide-mobile">Nick</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-default">
@@ -1209,7 +1210,7 @@
                                         <div class="media-status">
                                             <span class="badge badge-success">8</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar3.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar3.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Bob Nilson</h4>
                                             <div class="media-heading-sub">
@@ -1218,7 +1219,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img class="media-object" src="<?php echo theme_image('avatar1.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar1.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Nick Larson</h4>
                                             <div class="media-heading-sub">
@@ -1230,7 +1231,7 @@
                                         <div class="media-status">
                                             <span class="badge badge-danger">3</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar4.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar4.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Deon Hubert</h4>
                                             <div class="media-heading-sub">
@@ -1239,7 +1240,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img class="media-object" src="<?php echo theme_image('avatar2.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar2.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Ella Wong</h4>
                                             <div class="media-heading-sub">
@@ -1254,7 +1255,7 @@
                                         <div class="media-status">
                                             <span class="badge badge-warning">2</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar6.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar6.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Lara Kunis</h4>
                                             <div class="media-heading-sub">
@@ -1269,7 +1270,7 @@
                                         <div class="media-status">
                                             <span class="label label-sm label-success">new</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar7.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar7.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Ernie Kyllonen</h4>
                                             <div class="media-heading-sub">
@@ -1279,7 +1280,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img class="media-object" src="<?php echo theme_image('avatar8.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar8.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Lisa Stone</h4>
                                             <div class="media-heading-sub">
@@ -1294,7 +1295,7 @@
                                         <div class="media-status">
                                             <span class="badge badge-success">7</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar9.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar9.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Deon Portalatin</h4>
                                             <div class="media-heading-sub">
@@ -1303,7 +1304,7 @@
                                         </div>
                                     </li>
                                     <li class="media">
-                                        <img class="media-object" src="<?php echo theme_image('avatar10.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar10.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Irina Savikova</h4>
                                             <div class="media-heading-sub">
@@ -1315,7 +1316,7 @@
                                         <div class="media-status">
                                             <span class="badge badge-danger">4</span>
                                         </div>
-                                        <img class="media-object" src="<?php echo theme_image('avatar11.jpg','','footer'); ?>" alt="...">
+                                        <img class="media-object" src="<?php echo theme_image('avatar11.jpg'); ?>" alt="...">
                                         <div class="media-body">
                                             <h4 class="media-heading">Maria Gomez</h4>
                                             <div class="media-heading-sub">
@@ -1335,7 +1336,7 @@
                                     </div>
                                     <div class="page-quick-sidebar-chat-user-messages">
                                         <div class="post out">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Bob Nilson</a>
@@ -1345,7 +1346,7 @@
                                             </div>
                                         </div>
                                         <div class="post in">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Ella Wong</a>
@@ -1355,7 +1356,7 @@
                                             </div>
                                         </div>
                                         <div class="post out">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Bob Nilson</a>
@@ -1365,7 +1366,7 @@
                                             </div>
                                         </div>
                                         <div class="post in">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Ella Wong</a>
@@ -1375,7 +1376,7 @@
                                             </div>
                                         </div>
                                         <div class="post out">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar3.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Bob Nilson</a>
@@ -1385,7 +1386,7 @@
                                             </div>
                                         </div>
                                         <div class="post in">
-                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg','','footer'); ?>"/>
+                                            <img class="avatar" alt="" src="<?php echo theme_image('avatar2.jpg'); ?>"/>
                                             <div class="message">
                                                 <span class="arrow"></span>
                                                 <a href="javascript:;" class="name">Ella Wong</a>

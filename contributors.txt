@@ -1,0 +1,5 @@
+https://github.com/pyrocms/lex
+https://github.com/philsturgeon/codeigniter-template
+https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
+http://docs.pyrocms.com/2.1/manual/developers/tools/assets
+http://benedmunds.com/ion_auth/

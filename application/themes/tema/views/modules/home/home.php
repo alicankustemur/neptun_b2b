@@ -1,13 +1,7 @@
 	<h1>{{ variable }}</h1>
 
 	{{ array }}
-		{{ kamil }}<br>
-	{{ ahmet }}<br>
-	{{ mehmet }}<br>
-	{{ selami }}<br>
-	{{ ozgur }}<br>
-	{{ yusuf }}<br>
-
+		<p>id: {{ id }}</p>
 	{{ /array }}
 
 	{{ var2 }}
